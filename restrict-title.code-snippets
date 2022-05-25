@@ -1,0 +1,12 @@
+{
+	"restrict title": {
+		"scope": "scss, sass, css",
+		"prefix": "rest-title",
+		"body": [
+			"white-space: nowrap;",
+			"overflow: hidden;",
+			"text-overflow: ellipsis;",
+		],
+		"description": "restrict title"
+	}
+}

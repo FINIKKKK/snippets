@@ -1,0 +1,11 @@
+{
+	"svg-use:href": {
+		"scope": "jade",
+		"prefix": "svg",
+		"body": [
+			"svg(width=\"20\" height=\"20\")",
+			"	use(xlink:href=\"./img/icons/icons.svg#$1\")",
+		],
+		"description": "svg-use:href"
+	}
+}

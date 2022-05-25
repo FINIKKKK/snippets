@@ -1,0 +1,15 @@
+{
+	"Section": {
+		"scope": "jade",
+		"prefix": "ss",
+		"body": [
+			"// $1",
+			"// ======================================================= ",
+			"section.$1",
+			"	.container",
+			"		.$1__inner",
+			"// $1 end",
+		],
+		"description": "Section snippet"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"block-html-comment": {
+		"scope": "html",
+		"prefix": "nb",
+		"body": [
+			"<!-- $1 -->",
+		],
+		"description": "block-html-comment"
+	}
+}

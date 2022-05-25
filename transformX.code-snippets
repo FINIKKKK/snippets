@@ -1,0 +1,11 @@
+{
+	"Print to console": {
+		"scope": "scss, css, sass",
+		"prefix": "tx",
+		"body": [
+			"left: 50%;",
+			"transform: translateX(-50%);",
+		],
+		"description": "X: 50%"
+	}
+}

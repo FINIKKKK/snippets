@@ -1,0 +1,11 @@
+{
+	"favicon/icon": {
+		"scope": "html",
+		"prefix": "favicon",
+		"body": [
+			"<!-- Favicon -->",
+			"<link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\">",
+		],
+		"description": "favicon/icon"
+	}
+}

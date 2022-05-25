@@ -1,0 +1,10 @@
+{
+	"comment js": {
+		"scope": "javascript",
+		"prefix": "ss",
+		"body": [
+			"// --- $1",
+		],
+		"description": "comment js"
+	}
+}

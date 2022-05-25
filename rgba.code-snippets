@@ -1,0 +1,10 @@
+{
+	"rgba()": {
+		"scope": "scss, sass",
+		"prefix": "rgba",
+		"body": [
+			"rgba(#fff, 0.$1);",
+		],
+		"description": "rgba()"
+	}
+}

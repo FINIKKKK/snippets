@@ -1,0 +1,10 @@
+{
+	"span--pug": {
+		"scope": "jade",
+		"prefix": "span",
+		"body": [
+			"<span>$1</span>",
+		],
+		"description": "span--pug"
+	}
+}

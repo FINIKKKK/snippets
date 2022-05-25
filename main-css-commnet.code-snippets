@@ -1,0 +1,10 @@
+{
+	"main-css-comment": {
+		"scope": "scss,css,sass",
+		"prefix": "cc",
+		"body": [
+			"// --------- $1 ----------"
+		],
+		"description": "main-css-comment"
+	}
+}

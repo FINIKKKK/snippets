@@ -1,0 +1,13 @@
+{
+	"new-block": {
+		"scope": "scss, css, sass",
+		"prefix": "ss",
+		"body": [
+			"// --------- $1 ----------",
+			".$1 {",
+			"	",
+			"}",
+		],
+		"description": "new-block"
+	}
+}

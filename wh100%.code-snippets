@@ -1,0 +1,11 @@
+{
+	"w+h=100%": {
+		"scope": "css,scss,sass",
+		"prefix": "wh",
+		"body": [
+			"width: 100%;",
+			"height: 100%;",
+		],
+		"description": "w+h=100%"
+	}
+}

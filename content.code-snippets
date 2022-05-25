@@ -1,0 +1,14 @@
+{
+	"Content: '';": {
+		"scope": "scss, sass",
+		"prefix": "con",
+		"body": [
+			"position: relative;",
+        	"&::$1 {",
+            "	content: '';",
+            "	position: absolute;",
+        	"}",
+		],
+		"description": "content: '';",
+	}
+}

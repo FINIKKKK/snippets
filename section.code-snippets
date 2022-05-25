@@ -1,0 +1,19 @@
+{
+	"Section": {
+		"scope": "html",
+		"prefix": "ss",
+		"body": [
+			"<!-- $1"
+			"======================================================= -->"
+			"<section class=\"$1\">",
+    		"	<div class=\"container\">",
+      		"		<div class=\"$1__inner\">",
+			"",
+			"		</div>",
+			"	</div>",
+			"</section>",
+			"<!-- $1 end -->"
+		],
+		"description": "Section snippet"
+	}
+}

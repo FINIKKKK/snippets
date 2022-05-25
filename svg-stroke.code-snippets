@@ -1,0 +1,11 @@
+{
+	"svg-stroke": {
+		"scope": "css,scss,sass",
+		"prefix": "svg-str",
+		"body": [
+			"fill: transparent;",
+			"stroke: $1;"
+		],
+		"description": "svg-stroke"
+	}
+}

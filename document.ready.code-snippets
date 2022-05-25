@@ -1,0 +1,12 @@
+{
+	"document.ready": {
+		"scope": "javascript",
+		"prefix": "ready",
+		"body": [
+			"$(document).ready(function () {",
+			"	$1",
+			"})"
+		],
+		"description": "document.ready"
+	}
+}

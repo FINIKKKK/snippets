@@ -1,0 +1,12 @@
+{
+	"not:last": {
+		"scope": "css,scss,sass",
+		"prefix": "last",
+		"body": [
+			"$1:not(:last-child) {",
+			"	",
+			"}",
+		],
+		"description": "not:last"
+	}
+}

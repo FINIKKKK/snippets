@@ -1,0 +1,10 @@
+{
+	"transition-delay": {
+		"scope": "css,scss,sass",
+		"prefix": "td",
+		"body": [
+			"transition-delay: $1s;",
+		],
+		"description": "transition-delay"
+	}
+}

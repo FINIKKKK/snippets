@@ -1,0 +1,10 @@
+{
+	"translate-plugin": {
+		"scope": "html",
+		"prefix": "en",
+		"body": [
+			"<!--{en}$1-->",
+		],
+		"description": "translate-plugin"
+	}
+}

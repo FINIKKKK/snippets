@@ -1,0 +1,12 @@
+{
+	"miidle-position": {
+		"scope": "css,scss,sass",
+		"prefix": "pc",
+		"body": [
+			"position: relative;",
+			"left: 50%;",
+			"transform: translateX(-50%);",
+		],
+		"description": "miidle-position"
+	}
+}

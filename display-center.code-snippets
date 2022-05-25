@@ -1,0 +1,12 @@
+{
+	"display: center": {
+		"scope": "css ,scss, sass",
+		"prefix": "dc",
+		"body": [
+			"display: flex;",
+			"align-items: center;",
+			"justify-content: center;",
+		],
+		"description": "display: center"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"Transform-Center": {
+		"scope": "scss, css, sass",
+		"prefix": "tc",
+		"body": [
+			"left: 50%;",
+            "top: 50%;",
+           	"transform: translate(-50%, -50%);",
+		],
+		"description": "Transform-Center"
+	}
+}

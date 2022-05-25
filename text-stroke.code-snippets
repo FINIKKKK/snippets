@@ -1,0 +1,11 @@
+{
+	"text-stroke": {
+		"scope": "css,scss,sass",
+		"prefix": "text-stroke",
+		"body": [
+			"color: transparent;",
+			"-webkit-text-stroke: $1px #000;",
+		],
+		"description": "text-stroke"
+	}
+}

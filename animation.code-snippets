@@ -1,0 +1,10 @@
+{
+	"animation: name duration delay count;": {
+		"scope": "scss, sass, css",
+		"prefix": "anim",
+		"body": [
+			"animation: $1 1.2s 0.3s both;",
+		],
+		"description": "animation: name duration delay count;"
+	}
+}

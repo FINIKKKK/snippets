@@ -1,0 +1,10 @@
+{
+	"transparent": {
+		"scope": "css,scss,sass",
+		"prefix": "tr",
+		"body": [
+			"transparent",
+		],
+		"description": "transparent"
+	}
+}

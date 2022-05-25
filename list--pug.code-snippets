@@ -1,0 +1,18 @@
+{
+	"List": {
+		"scope": "jade",
+		"prefix": "list",
+		"body": [
+			"ul.$1__list",
+			"	li.$1__list-item",
+			"		a(href='#')",
+			"	li.$1__list-item",
+			"		a(href='#')",
+			"	li.$1__list-item",
+			"		a(href='#')",
+			"	li.$1__list-item",
+			"		a(href='#')",
+		],
+		"description": "List"
+	}
+}

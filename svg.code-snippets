@@ -1,0 +1,12 @@
+{
+	"svg-use:href": {
+		"scope": "html",
+		"prefix": "svg",
+		"body": [
+			"<svg width=\"20\" height=\"20\">",
+            "	<use xlink:href=\"./img/icons/icons.svg#$1\"/>",
+			"</svg>"
+		],
+		"description": "svg-use:href"
+	}
+}

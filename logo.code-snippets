@@ -1,0 +1,12 @@
+{
+	"Logo": {
+		"scope": "html",
+		"prefix": "logo",
+		"body": [
+			"<a href='index.html' class='logo'>",
+			"   <img src='./img/logo.png' width= '' height='' loading='lazy' alt='logo' title='$1'>",
+			"</a>",
+		],
+		"description": "Logo"
+	}
+}

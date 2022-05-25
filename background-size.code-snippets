@@ -1,0 +1,13 @@
+{
+	"background-image": {
+		"scope": "scss, css, sass",
+		"prefix": "bi",
+		"body": [
+			"background-image: url($1);",
+			"background-repeat: no-repeat;",
+			"background-size: cover;",
+			"background-position: center;",
+		],
+		"description": "background-image",
+	}
+}

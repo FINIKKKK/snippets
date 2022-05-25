@@ -1,0 +1,10 @@
+{
+	"include(@mixin)": {
+		"scope": "css,scss,sass",
+		"prefix": "mixin",
+		"body": [
+			"@include transform(rotate(30deg));",
+		],
+		"description": "include(@mixin)"
+	}
+}

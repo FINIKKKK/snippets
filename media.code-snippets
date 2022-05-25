@@ -1,0 +1,13 @@
+{
+	"media": {
+		"scope": "scss,css,sass",
+		"prefix": "media",
+		"body": [
+			"//Max-Width: $1px ================================",
+			"@media (max-width: $1px) {",
+			"	",
+			"}"
+		],
+		"description": "media"
+	}
+}

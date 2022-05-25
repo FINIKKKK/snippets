@@ -1,0 +1,23 @@
+{
+	"List": {
+		"scope": "html",
+		"prefix": "list",
+		"body": [
+        	"<ul class=\"$1__list\">",
+			"	<li class=\"$1__list-item\">",
+			"		<a href=\"#\"></a>",
+			"	</li>",
+			"	<li class=\"$1__list-item\">",
+			"		<a href=\"#\"></a>",
+			"	</li>",
+			"	<li class=\"$1__list-item\">",
+            "		<a href=\"#\"></a>",
+          	"	</li>",
+			"	<li class=\"$1__list-item\">",
+            "		<a href=\"#\"></a>",
+          	"	</li>",
+			"</ul>",
+		],
+		"description": "List"
+	}
+}

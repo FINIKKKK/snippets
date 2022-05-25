@@ -1,0 +1,17 @@
+{
+	"@keyframes": {
+		"scope": "scss, css, sass",
+		"prefix": "keyframes",
+		"body": [
+			"@keyframes $1 {",
+			"	0% {",
+			"		",
+			"	}",
+			"	100% {",
+			"		",
+			"	}",
+			"}",
+		],
+		"description": "@keyframes"
+	}
+}

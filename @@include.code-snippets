@@ -1,0 +1,12 @@
+{
+	"@@include": {
+		"scope": "html",
+		"prefix": "@@include",
+		"body": [
+			"@@include('./blocks/_$1.html', {",
+			"\"class\": \"\"",
+			"})",
+		],
+		"description": "@@include"
+	}
+}

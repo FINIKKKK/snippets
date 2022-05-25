@@ -1,0 +1,12 @@
+{
+	"@mixin-create": {
+		"scope": "css,scss,sass",
+		"prefix": "@mixin",
+		"body": [
+			"@mixin transform($property) {",
+			"	transform: $property;",
+			"}",
+		],
+		"description": "@mixin-create"
+	}
+}

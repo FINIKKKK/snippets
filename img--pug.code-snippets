@@ -1,0 +1,10 @@
+{
+	"img = width+height+alt+loading": {
+		"scope": "jade",
+		"prefix": "img",
+		"body": [
+			"img(src='$1' width= '' height='' loading='lazy' alt='')",
+		],
+		"description": "img = width+height+alt+loading"
+	}
+}

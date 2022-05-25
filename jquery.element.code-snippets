@@ -1,0 +1,10 @@
+{
+	"$('$1')": {
+		"scope": "javascript",
+		"prefix": "$",
+		"body": [
+			"$('$1')",
+		],
+		"description": "$('$1')"
+	}
+}

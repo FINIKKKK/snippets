@@ -1,0 +1,21 @@
+{
+	"validation form": {
+		"scope": "html",
+		"prefix": "form",
+		"body": [
+			"<form id=\"$1__form\" class=\"$1__form\">",
+			"	<div class=\"$1__form-input input-block\">",
+			"		<input type=\"text\" id=\"$1__form-name\" name=\"$1__form-name\" class=\"input\" placeholder=\"Имя:\">",
+			"	</div>",
+			"	<div class=\"$1__form-input input-block\">",
+			"		<input type=\"text\" id=\"$1__form-email\" name=\"$1__form-email\" class=\"input\">",
+			"	</div>",
+			"	<div class=\"$1__form-message input-block\">",
+			"		<textarea name=\"$1__form-message\" id=\"$1__form-message\" class=\"input\" placeholder=\"Сообщение:\"></textarea>",
+			"	</div>",
+			"	<button type=\"submit\" class=\"$1__form-button btn\">Отправить</button>",
+			"</form>",
+		],
+		"description": "valldation form"
+	}
+}

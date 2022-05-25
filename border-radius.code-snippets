@@ -1,0 +1,10 @@
+{
+	"border-radius: 50%": {
+		"scope": "scss,sass,css",
+		"prefix": "br",
+		"body": [
+			"border-radius: 50%;",
+		],
+		"description": "border-radius: 50%"
+	}
+}

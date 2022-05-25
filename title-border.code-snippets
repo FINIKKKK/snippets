@@ -1,0 +1,11 @@
+{
+	"title-border": {
+		"scope": "scss, sass, css",
+		"prefix": "title-border",
+		"body": [
+			"color: transparent;",
+			"-webkit-text-stroke: 1px #fff;",
+		],
+		"description": "title-border"
+	}
+}

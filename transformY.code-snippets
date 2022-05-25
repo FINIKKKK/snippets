@@ -1,0 +1,11 @@
+{
+	"Print to console": {
+		"scope": "scss, css, sass",
+		"prefix": "ty",
+		"body": [
+			"top: 50%;",
+			"transform: translateY(-50%);",
+		],
+		"description": "Y: 50%"
+	}
+}

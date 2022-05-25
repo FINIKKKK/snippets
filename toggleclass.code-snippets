@@ -1,0 +1,12 @@
+{
+	"btn-toggleClass": {
+		"scope": "javascript",
+		"prefix": "tg",
+		"body": [
+			"$('.$1').click(function () {",
+			"	$(this).toggleClass('active');",
+			"});"
+		],
+		"description": "btn-toggleClass"
+	}
+}
