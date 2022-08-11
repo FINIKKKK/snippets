@@ -1,0 +1,10 @@
+{
+  "import useDispatch": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "imds",
+    "body": [
+			"import { useDispatch } from 'react-redux';"
+		],
+    "description": "import useDispatch"
+  } 
+}

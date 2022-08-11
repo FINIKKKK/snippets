@@ -1,0 +1,8 @@
+{
+  "export-default": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "exp",
+    "body": "export default ${TM_FILENAME_BASE}$1",
+    "description": "export-default"
+  } 
+}

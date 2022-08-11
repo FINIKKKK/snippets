@@ -1,0 +1,12 @@
+{
+  "import { Link }": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "iml",
+    "body": [
+			"import { Link } from 'react-router-dom';"
+    ],
+    "description": "import { Link }"
+  }
+}
+
+

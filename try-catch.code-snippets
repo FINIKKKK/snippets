@@ -1,0 +1,16 @@
+{
+  "try-catch": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "try",
+    "body": [
+      "try {",
+      "	$1",
+      "} catch (error) {",
+      "	alert('Ошибка!');",
+      "	console.log('Ошибка при $2');",
+      "	console.log(error);",
+      "}"
+    ],
+    "description": "try-catch"
+  }
+}

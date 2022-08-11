@@ -1,0 +1,13 @@
+{
+  "type TS": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "type",
+    "body": [
+			"export type $1 = {",
+			"	$2",
+			"};"
+		],
+    "description": "type TS"
+  } 
+}
+

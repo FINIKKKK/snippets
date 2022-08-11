@@ -1,0 +1,22 @@
+{
+  "React Component with Props": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "rcc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "type $1Props = {",
+      "	$3",
+      "};",
+      "",
+      "export const $1: React.FC<$1Props> = ({$2}) => {",
+      "		",
+      "",
+      "	return (",
+      "		",
+      "	);",
+      "};"
+    ],
+    "description": "React Component with Props"
+  }
+}

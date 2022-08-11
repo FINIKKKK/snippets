@@ -1,0 +1,15 @@
+{
+  "Loadable": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "loadable",
+    "body": [
+      "import Loadable from 'react-loadable';",
+      "",
+      "const $1 = Loadable({",
+      "	loader: () => import('./pages/$1'),",
+      "	loading: () => <div>Загрузка...</div>$2,",
+      "});"
+    ],
+    "description": "Loadable"
+  }
+}

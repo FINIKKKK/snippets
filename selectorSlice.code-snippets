@@ -1,0 +1,10 @@
+{
+  "selectorSlice": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "selector",
+    "body": [
+      "export const $1SliceSelector = ({ $2 }: RootState) => $2;"
+    ],
+    "description": "selectorSlice"
+  }
+}

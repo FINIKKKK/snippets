@@ -1,0 +1,11 @@
+{
+  "AppDispatch": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "appDispatch",
+    "body": [
+			"type AppDispatch = typeof store.dispatch;",
+			"export const useAppDispatch = () => useDispatch<AppDispatch>();"
+		],
+    "description": "AppDispatch"
+  } 
+}

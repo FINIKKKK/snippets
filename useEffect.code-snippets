@@ -1,0 +1,12 @@
+{
+  "useEffectSnippet": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "useEffect",
+    "body": [
+			"React.useEffect(() => {",
+			"	$1",
+			"}, []);"
+		],
+    "description": "useEffectSnippet"
+  } 
+}

@@ -1,0 +1,12 @@
+{
+	"nth-child": {
+		"scope": "css,scss,sass",
+		"prefix": "nth",
+		"body": [
+			"$1:nth-child($2) {",
+			"	",
+			"}",
+		],
+		"description": "nth-child"
+	}
+}

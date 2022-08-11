@@ -1,0 +1,10 @@
+{
+  "import default": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "im",
+    "body": [
+			"import $1 from '$2';"
+		],
+    "description": "import default"
+  } 
+}

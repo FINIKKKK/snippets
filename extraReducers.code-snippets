@@ -1,0 +1,20 @@
+{
+  "extraReducers": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "extra",
+    "body": [
+      "extraReducers: (builder) => {",
+      "	builder.addCase($1.pending, (state) => {",
+      "		$2",
+      "	});",
+      "	builder.addCase($1.fulfilled, (state, { payload }) => {",
+      "		",
+      "	});",
+      "	builder.addCase($1.rejected, (state) => {",
+      "		",
+      "	});",
+      "},"
+    ],
+    "description": "extraReducers"
+  }
+}

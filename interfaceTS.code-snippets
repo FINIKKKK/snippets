@@ -1,0 +1,12 @@
+{
+  "interface TS": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "interface",
+    "body": [
+			"export interface $1 = {",
+			"	$2",
+			"};"
+		],
+    "description": "interface TS"
+  } 
+}

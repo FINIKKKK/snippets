@@ -1,0 +1,18 @@
+{
+  "handleClickOutSide": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "handleClick",
+    "body": [
+      "const handleClickOutSide = (e: MouseEvent) => {",
+      "	const _event = e as MouseEvent & {",
+      "		path: Node[];",
+      "	};",
+      "",
+      "	if ($2.current && !_event.path.includes($2.current)) {",
+      "		$1(false);",
+      "	}",
+      "};"
+    ],
+    "description": "handleClickOutSide"
+  }
+}

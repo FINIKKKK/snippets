@@ -1,0 +1,8 @@
+{
+  "import { }": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "imd",
+    "body": "import { $1 } from '$2'",
+    "description": "import { }"
+  } 
+}

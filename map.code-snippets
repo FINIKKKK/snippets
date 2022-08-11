@@ -1,0 +1,12 @@
+{
+  "map(ts)": {
+    "scope": "javascript,javascriptreact, typescript, typescriptreact",
+    "prefix": "map",
+    "body": [
+      "{items.map((obj: $2) => (",
+      "	<$1 key={obj.id} {...obj} />",
+      "))}"
+    ],
+    "description": "map(ts)"
+  }
+}

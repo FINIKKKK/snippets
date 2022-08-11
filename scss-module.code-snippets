@@ -1,0 +1,8 @@
+{
+  "scss-module": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "module",
+    "body": ["import styles from './${TM_FILENAME_BASE}.module.scss'"],
+    "description": "scss-module"
+  }
+}

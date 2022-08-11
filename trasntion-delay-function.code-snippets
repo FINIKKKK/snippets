@@ -1,0 +1,14 @@
+{
+	"function-transition-delay": {
+		"scope": "scss,sass",
+		"prefix": "func-delay",
+		"body": [
+			"@for $$i from 1 through $1 {",
+			"	span:nth-child(#{$$i}) {",
+			"		transition-delay: $$i * 0.15s;",
+			"	}",
+			"}",
+		],
+		"description": "function-transition-delay"
+	}
+}

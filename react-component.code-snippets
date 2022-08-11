@@ -1,0 +1,18 @@
+{
+  "reactComponent": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "rc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export const $1: React.FC = () => {",
+      "$2",
+      "",
+      "	return (",
+      "		",
+      "	)",
+      "}"
+    ],
+    "description": "reactComponent"
+  }
+}

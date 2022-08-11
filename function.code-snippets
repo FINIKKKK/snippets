@@ -1,0 +1,12 @@
+{
+  "function = () => {}": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "fc",
+    "body": [
+			"const $1 = () => {",
+			"	$2",
+			"};",
+		],
+    "description": "function = () => {}"
+  } 
+}

@@ -1,0 +1,8 @@
+{
+  "import RootState": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "imrs",
+    "body": ["import { RootState } from '../store';"],
+    "description": "import RootState"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "redux-slice": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "rx",
+    "body": [
+      "import { createSlice, PayloadAction } from '@reduxjs/toolkit';",
+      "import { $4 } from './types';",
+      "",
+      "const initialState: $4 = {",
+      "	$3",
+      "};",
+      "",
+      "const $1 = createSlice({",
+      "	name: '$2',",
+      "	initialState,",
+      "	reducers: {",
+      "		$5(state, { payload }: PayloadAction<$6>) {",
+      "			",
+      "		},",
+      "	},",
+      "});",
+      "",
+      "export const { $5 } = cartSlice.actions;",
+      "",
+      "export default $1.reducer;"
+    ],
+    "description": "redux-slice"
+  }
+}

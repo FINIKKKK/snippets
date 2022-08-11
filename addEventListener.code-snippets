@@ -1,0 +1,11 @@
+{
+  "addEventListener": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "addev",
+    "body": [
+			"document.$2.addEventListener('click', $1);"
+		],
+    "description": "addEventListener"
+  } 
+}
+

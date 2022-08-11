@@ -1,0 +1,10 @@
+{
+  "import Image": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "imimg",
+    "body": [
+			"import $2 from '../assets/img/$1';"
+    ],
+    "description": "import Image"
+  }
+}

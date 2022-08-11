@@ -1,0 +1,13 @@
+{
+  "classNames": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "classNames",
+    "body": [
+			"classNames({",
+			"	active: $1,",
+			"	disabled: $2,",
+			"})}",
+    ],
+    "description": "classNames"
+  }
+}

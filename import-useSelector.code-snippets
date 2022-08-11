@@ -1,0 +1,8 @@
+{
+  "import useSelector": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "imsel",
+    "body": ["import { useSelector } from 'react-redux';"],
+    "description": "import useSelector"
+  }
+}

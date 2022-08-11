@@ -1,0 +1,8 @@
+{
+  "import components": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "imc",
+    "body": ["import { $1, $2, } from './components';"],
+    "description": "import components"
+  }
+}

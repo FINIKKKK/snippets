@@ -1,0 +1,12 @@
+{
+  "uncustom-scss-in-module": {
+    "scope": "scss, sass",
+    "prefix": "uncustom",
+    "body": [
+			":global {"
+			"	$1",
+			"}"
+		],
+    "description": "uncustom-scss-in-module"
+  } 
+}

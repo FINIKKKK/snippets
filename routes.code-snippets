@@ -1,0 +1,15 @@
+{
+  "Routes": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "routes",
+    "body": [
+			"import { Routes, Route } from 'react-router-dom';",
+			"",
+      "<Routes>",
+      "	<Route path='/' element={<Home />} />",
+      "	<Route path='${1/(.*)/${1:/downcase}/}' element={${1/(.*)/${1:/capitalize}/} />} /> $2",
+      "</Routes>"
+    ],
+    "description": "Routes"
+  }
+}
