@@ -3,7 +3,7 @@
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
     "prefix": "fc",
     "body": [
-			"const $1 = () => {",
+			"function $1() {",
 			"	$2",
 			"};",
 		],

@@ -1,7 +1,7 @@
 {
   "useSelectorSnippet": {
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
-    "prefix": "useSelector",
+    "prefix": "usl",
     "body": [
 			"const { $1 } = useSelector($2);"
 		],

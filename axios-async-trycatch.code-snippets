@@ -1,0 +1,24 @@
+{
+  "axios-async-tryCatch-useEffect": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "axf",
+    "body": [
+      "React.useEffect(() => {",
+      "	try {",
+      "		const fetch$1 = async () => {",
+      "		const { data } = await axios.get('$2');",
+      "		$3(data);",
+      "	};",
+      "	fetch$1();",
+      "} catch (error) {",
+      "		alert('Ошибка!');",
+      "		console.log('Ошибка при получении $4');",
+      "		console.log(error);",
+      "	} finally {",
+      "		setIsLoaded(true);",
+      "	}",
+      "}, []);"
+    ],
+    "description": "axios-async-tryCatch-useEffect"
+  }
+}

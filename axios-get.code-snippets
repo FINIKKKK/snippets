@@ -1,0 +1,12 @@
+{
+  "axios.get()": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "axios",
+    "body": [
+      "axios.get('$1').then(({ data }) => {",
+			"	$2(data)",
+			"})",
+    ],
+    "description": "axios.get()"
+  }
+}

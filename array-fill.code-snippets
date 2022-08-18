@@ -1,0 +1,14 @@
+{
+  "array().fill": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "arr",
+    "body": [
+      "{Array($2)",
+      ".fill(0)",
+      ".map((_, index) => (",
+      "	<$1 key={index} />",
+      "))}"
+    ],
+    "description": "array().fill"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "map(ts)": {
-    "scope": "javascript,javascriptreact, typescript, typescriptreact",
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "map",
     "body": [
       "{items.map((obj: $2) => (",

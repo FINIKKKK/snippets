@@ -1,9 +1,8 @@
 {
   "useDispatchSnippet": {
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
-    "prefix": "useDispatch",
+    "prefix": "ud",
     "body": [
-      "import { useDispatch, useSelector } from 'react-redux';",
 			"const dispatch = useDispatch();"
 		],
     "description": "useDispatchSnippet"

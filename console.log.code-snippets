@@ -1,7 +1,7 @@
 {
 	"console.log()": {
 		"scope": "javascript, typescript, javascriptreac, typescriptreact",
-		"prefix": "console",
+		"prefix": "cc",
 		"body": [
 			"console.log($1);",
 		],

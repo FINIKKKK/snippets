@@ -1,0 +1,16 @@
+{
+  "fetch-json-data": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "fetch",
+    "body": [
+      "fetch('$1')",
+      "	.then((res) => {",
+      "		return res.json();",
+      "	})",
+      "	.then(({data}) => {",
+      "		$2(data);",
+      "	});"
+    ],
+    "description": "fetch-json-data"
+  }
+}

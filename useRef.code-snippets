@@ -1,7 +1,7 @@
 {
   "useRefSnippet": {
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
-    "prefix": "useRef",
+    "prefix": "ur",
     "body": [
 			"const $1 = React.useRef<HTML$2Element>(null);"
     ],
