@@ -4,25 +4,25 @@
     "prefix": "rx",
     "body": [
       "import { createSlice, PayloadAction } from '@reduxjs/toolkit';",
-      "import { $4 } from './types';",
+      "import { T${1/(.*)/${1:/capitalize}/}Slice, T$2 } from './types';",
       "",
-      "const initialState: $4 = {",
-      "	$3",
+      "const initialState: T${1/(.*)/${1:/capitalize}/}Slice = {",
+      "	items: [],",
       "};",
       "",
-      "const $1 = createSlice({",
-      "	name: '$2',",
+      "const ${1/(.*)/${1:/downcase}/}Slice = createSlice({",
+      "	name: '${1/(.*)/${1:/downcase}/}',",
       "	initialState,",
       "	reducers: {",
-      "		$5(state, { payload }: PayloadAction<$6>) {",
+      "		set${1/(.*)/${1:/capitalize}/}(state, { payload }: PayloadAction<T$2[]>) {",
       "			",
       "		},",
       "	},",
       "});",
       "",
-      "export const { $5 } = cartSlice.actions;",
+      "export const { set${1/(.*)/${1:/capitalize}/} } = ${1/(.*)/${1:/downcase}/}Slice.actions;",
       "",
-      "export default $1.reducer;"
+      "export default ${1/(.*)/${1:/downcase}/}Slice.reducer;"
     ],
     "description": "redux-slice"
   }

@@ -1,8 +1,8 @@
 {
   "scss-module": {
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
-    "prefix": "module",
-    "body": ["import styles from './${TM_FILENAME_BASE}.module.scss'"],
+    "prefix": "imss",
+    "body": ["import styles from './${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}.module.scss'"],
     "description": "scss-module"
   }
 }

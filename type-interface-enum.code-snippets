@@ -1,0 +1,23 @@
+{
+  "type-interface-enum": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "tie",
+    "body": [
+      "export type T$2 = {",
+      "	id: number;",
+      "};",
+      "",
+      "export interface T$1Slice {",
+      "	status: $2Status;",
+      "	items: T$2[];",
+      "}",
+      "",
+      "export enum $2Status {",
+      "	LOADING = 'loading',",
+      "	SUCCESS = 'success',",
+      "	ERROR = 'error',",
+      "}"
+    ],
+    "description": "type-interface-enum"
+  }
+}

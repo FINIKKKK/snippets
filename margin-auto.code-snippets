@@ -1,0 +1,8 @@
+{
+  "margin-auto": {
+    "scope": "scss, sass, css",
+    "prefix": "mm",
+    "body": ["margin: 0 auto;"],
+    "description": "margin: 0 auto"
+  }
+}

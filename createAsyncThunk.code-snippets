@@ -1,0 +1,18 @@
+{
+  "createAsyncThunk": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "createAsyncThunk",
+    "body": [
+      "const fetch${1/(.*)/${1:/capitalize}/} = createAsyncThunk<T$2[]>(",
+      "	'${1/(.*)/${1:/downcase}/}/fetch${1/(.*)/${1:/capitalize}/}Status',",
+      "	async () => {",
+      "		const { data } = await axios.get<T$2[]>(",
+      "			''",
+      "		);",
+      "		return data;",
+      "	}",
+      ");"
+    ],
+    "description": "createAsyncThunk"
+  }
+}

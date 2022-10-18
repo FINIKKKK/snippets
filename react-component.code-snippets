@@ -1,18 +1,24 @@
 {
-  "reactComponent": {
-    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+  "React Component with Props": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "rc",
     "body": [
-      "import React from 'react'",
+      "import React from 'react';",
       "",
-      "export const $1: React.FC = () => {",
-      "$2",
+      "import styles from './${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}.module.scss'",
+      "",
+      "type ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props = {",
+      "	$1",
+      "};",
+      "",
+      "export const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}: React.FC<${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props> = () => {",
+      "		",
       "",
       "	return (",
-      "		",
-      "	)",
-      "}"
+      "		$2",
+      "	);",
+      "};"
     ],
-    "description": "reactComponent"
+    "description": "React Component with Props"
   }
 }

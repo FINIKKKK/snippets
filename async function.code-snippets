@@ -1,0 +1,12 @@
+{
+  "async function": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "as",
+    "body": [
+			"const $1 = async () => {", 
+			"	await $2", 
+			"}"
+		],
+    "description": "async function"
+  }
+}

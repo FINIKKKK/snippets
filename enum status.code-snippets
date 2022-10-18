@@ -1,0 +1,14 @@
+{
+  "enum status loading": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "enum",
+    "body": [
+      "export enum $1Status {",
+      "	LOADING = 'loading',",
+      "	SUCCESS = 'success',",
+      "	ERROR = 'error',",
+      "}"
+    ],
+    "description": "enum status loading"
+  }
+}
