@@ -1,5 +1,5 @@
 {
-  "type TS": {
+  "type": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "tt",
     "body": [
@@ -7,7 +7,7 @@
 			"	$2;",
 			"};"
 		],
-    "description": "type TS"
+    "description": "type"
   } 
 }
 

@@ -7,8 +7,8 @@
 			"grid-template-areas:",
 			"'box-1 box-2 box-5'",
 			"'box-3 box-4 box-5';",
-			"grid-template-columns: 300px 400px auto;",
-			"grid-template-rows: 470px auto;",
+			"grid-template-columns: $1;",
+			"grid-template-rows: $2;",
 		],
 		"description": "grid"
 	}

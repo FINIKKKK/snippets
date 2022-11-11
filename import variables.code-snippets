@@ -1,0 +1,10 @@
+{
+	"variables.scss import": {
+		"scope": "scss,sass,css",
+		"prefix": "imv",
+		"body": [
+			"@import '../../scss/variables';",
+		],
+		"description": "variables.scss import"
+	}
+}

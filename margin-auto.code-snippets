@@ -1,7 +1,7 @@
 {
   "margin-auto": {
     "scope": "scss, sass, css",
-    "prefix": "mm",
+    "prefix": "ma",
     "body": ["margin: 0 auto;"],
     "description": "margin: 0 auto"
   }

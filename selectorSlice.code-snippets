@@ -3,7 +3,9 @@
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
     "prefix": "sel",
     "body": [
-      "export const $1SliceSelector = ({ $2 }: RootState) => $2;"
+      "import { RootState } from '../store';",
+      "",
+      "export const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}SliceSelector = ({ ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/} }: RootState) => ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/};"
     ],
     "description": "selectorSlice"
   }

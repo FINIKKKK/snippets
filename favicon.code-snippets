@@ -4,7 +4,7 @@
 		"prefix": "favicon",
 		"body": [
 			"<!-- Favicon -->",
-			"<link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\">",
+			"<link rel='icon' href='./favicon.$1' />",
 		],
 		"description": "favicon/icon"
 	}

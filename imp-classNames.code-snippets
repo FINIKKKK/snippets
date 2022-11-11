@@ -1,8 +1,0 @@
-{
-  "import classNames": {
-    "scope": "javascript, typescript, javascriptreact, typescriptreact",
-    "prefix": "imcl",
-    "body": ["import classNames from 'classNames'"],
-    "description": "import classNames"
-  }
-}

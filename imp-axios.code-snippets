@@ -1,8 +1,0 @@
-{
-  "import axios": {
-    "scope": "javascript, javascriptreact, typescript, typescriptreact",
-    "prefix": "imax",
-    "body": ["import axios from 'axios'"],
-    "description": "import axios"
-  }
-}

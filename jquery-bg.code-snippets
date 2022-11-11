@@ -1,10 +1,10 @@
 {
-	"js-bg": {
+	"jquery-bg": {
 		"scope": "javascript",
 		"prefix": "bg",
 		"body": [
 			"$(\"body\").css(\"background-color\",\"red\");",
 		],
-		"description": "js-bg"
+		"description": "jquery-bg"
 	}
 }

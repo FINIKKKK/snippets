@@ -1,9 +1,9 @@
 {
 	"comment": {
-		"scope": "javascript",
+		"scope": "html",
 		"prefix": "ss",
 		"body": [
-			"// --- $1",
+			"<!-- $1 -->",
 		],
 		"description": "comment"
 	}

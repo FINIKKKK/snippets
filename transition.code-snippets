@@ -1,10 +1,10 @@
 {
-	"Transition": {
+	"transition": {
 		"scope": "scss, css, sass",
 		"prefix": "ts",
 		"body": [
 			"transition: 0.$1s;",
 		],
-		"description": "Transition"
+		"description": "transition"
 	}
 }

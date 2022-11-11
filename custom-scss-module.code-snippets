@@ -1,0 +1,12 @@
+{
+  "custom-scss-in-module": {
+    "scope": "scss, sass",
+    "prefix": "custom",
+    "body": [
+			":global {"
+			"	$1",
+			"}"
+		],
+    "description": "custom-scss-in-module"
+  } 
+}

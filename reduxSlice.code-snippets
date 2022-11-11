@@ -15,7 +15,7 @@
       "	initialState,",
       "	reducers: {",
       "		set${1/(.*)/${1:/capitalize}/}(state, { payload }: PayloadAction<T$2[]>) {",
-      "			",
+      "			state.items = payload;",
       "		},",
       "	},",
       "});",

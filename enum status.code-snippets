@@ -1,7 +1,7 @@
 {
   "enum status loading": {
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
-    "prefix": "enum",
+    "prefix": "enums",
     "body": [
       "export enum $1Status {",
       "	LOADING = 'loading',",

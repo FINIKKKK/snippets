@@ -1,0 +1,10 @@
+{
+	"repeat(2, 1fr)": {
+		"scope": "scss, sass, css",
+		"prefix": "rep",
+		"body": [
+			"repeat($1, $2);",
+		],
+		"description": "repeat(2, 1fr)"
+	}
+}

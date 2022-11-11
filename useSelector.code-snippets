@@ -3,7 +3,7 @@
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
     "prefix": "uss",
     "body": [
-			"const { $1 } = useSelector($2);"
+			"const {$1} = useSelector($2);"
 		],
     "description": "useSelectorSnippet"
   } 

@@ -1,0 +1,10 @@
+{
+	"box-shadow: 0px 0px 10px rgba(#000, 0.7);": {
+		"scope": "scss,sass,css",
+		"prefix": "bss",
+		"body": [
+			"box-shadow: 0px 0px 10px rgba(#$1, 0.$2);",
+		],
+		"description": "box-shadow: 0px 0px 10px rgba(#000, 0.7);"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "import scss-module": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "imss",
+    "body": ["import ss from './${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}.module.scss'"],
+    "description": "import scss-module"
+  }
+}

@@ -5,7 +5,7 @@
 		"body": [
 			"//Max-Width: $1px ================================",
 			"@media (max-width: $1px) {",
-			"	",
+			"	$2",
 			"}"
 		],
 		"description": "media"

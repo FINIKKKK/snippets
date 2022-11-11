@@ -1,0 +1,15 @@
+{
+  "useEffect-and-remove": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "ufr",
+    "body": [
+      "React.useEffect(() => {",
+      "document.addEventListener('$1', $2);",
+      "	return () => {",
+      "		document.removeEventListener('$1', $2);",
+      "	};",
+      "}, []);"
+    ],
+    "description": "useEffect-and-remove"
+  }
+}

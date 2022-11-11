@@ -1,0 +1,10 @@
+{
+	"border-radius: custom px": {
+		"scope": "scss,sass,css",
+		"prefix": "brr",
+		"body": [
+			"border-radius: $1px;",
+		],
+		"description": "border-radius: custom px"
+	}
+}

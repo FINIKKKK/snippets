@@ -4,7 +4,7 @@
 		"prefix": "nth",
 		"body": [
 			"$1:nth-child($2) {",
-			"	",
+			"	$3",
 			"}",
 		],
 		"description": "nth-child"

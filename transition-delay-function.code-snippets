@@ -1,7 +1,7 @@
 {
 	"function-transition-delay": {
 		"scope": "scss,sass",
-		"prefix": "func-delay",
+		"prefix": "td-func",
 		"body": [
 			"@for $$i from 1 through $1 {",
 			"	span:nth-child(#{$$i}) {",

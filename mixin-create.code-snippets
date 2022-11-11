@@ -1,7 +1,7 @@
 {
 	"@mixin-create": {
 		"scope": "css,scss,sass",
-		"prefix": "@mixin",
+		"prefix": "mixin",
 		"body": [
 			"@mixin transform($property) {",
 			"	transform: $property;",

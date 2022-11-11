@@ -1,7 +1,7 @@
 {
 	"if (window < ...px)": {
 		"scope": "javascript",
-		"prefix": "windowif",
+		"prefix": "ifw",
 		"body": [
 			"if ($(window).width() > $1) {",
 			"	",

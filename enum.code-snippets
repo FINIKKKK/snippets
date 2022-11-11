@@ -1,12 +1,12 @@
 {
-  "enum TS": {
+  "enum": {
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "enum",
     "body": [
-			"export enum $1 {",
-			"	$2",
-			"}",
-		],
-    "description": "enum TS"
-  } 
+      "export enum $1 {",
+      " $2"
+      "}"
+    ],
+    "description": "enum"
+  }
 }

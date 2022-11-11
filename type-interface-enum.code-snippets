@@ -1,5 +1,5 @@
 {
-  "type-interface-enum": {
+  "type-interface-enumStatus": {
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "tie",
     "body": [
@@ -18,6 +18,6 @@
       "	ERROR = 'error',",
       "}"
     ],
-    "description": "type-interface-enum"
+    "description": "type-interface-enumStatus"
   }
 }

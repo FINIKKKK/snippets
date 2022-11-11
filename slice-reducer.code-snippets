@@ -1,10 +1,10 @@
 {
   "reducer": {
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
-    "prefix": "rxred",
+    "prefix": "red",
     "body": [
-      "$1(state, { payload }: PayloadAction<$2>) {",
-      "		$3",
+      "$1(state, { payload }: PayloadAction<$3>) {",
+      "		state.$2 = payload",
       "},"
     ],
     "description": "reducer"

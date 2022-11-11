@@ -1,5 +1,5 @@
 {
-    "Soclist": {
+    "soclist": {
         "scope": "html",
         "prefix": "soclist",
         "body": [
@@ -14,19 +14,26 @@
             "   <li class=\"soclist__item\">",
             "       <a href=\"#\">",
             "           <svg width=\"20\" height=\"20\">",
-            "               <use xlink:href=\"./img/icons/icons.svg#\"/>",
+            "               <use xlink:href=\"./img/icons/icons.svg#$2\"/>",
             "           </svg>",
             "       </a>",
             "   </li>",
             "   <li class=\"soclist__item\">",
             "        <a href=\"#\">",
             "           <svg width=\"20\" height=\"20\">",
-            "               <use xlink:href=\"./img/icons/icons.svg#\"/>",
+            "               <use xlink:href=\"./img/icons/icons.svg#$3\"/>",
+            "           </svg>",
+            "       </a>",
+            "   </li>",
+            "   <li class=\"soclist__item\">",
+            "        <a href=\"#\">",
+            "           <svg width=\"20\" height=\"20\">",
+            "               <use xlink:href=\"./img/icons/icons.svg#$4\"/>",
             "           </svg>",
             "       </a>",
             "   </li>",
             "</ul>"
         ],
-        "description": "Social List"
+        "description": "soclist"
     }
 }

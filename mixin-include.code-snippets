@@ -1,7 +1,7 @@
 {
 	"include(@mixin)": {
 		"scope": "css,scss,sass",
-		"prefix": "mixin",
+		"prefix": "mixin-inc",
 		"body": [
 			"@include transform(rotate(30deg));",
 		],

@@ -3,7 +3,7 @@
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "ur",
     "body": [
-			"const $1 = React.useRef<HTML$2Element>(null);"
+			"const $1 = React.useRef<HTMLDiv$2Element>(null);"
     ],
     "description": "useRefSnippet"
   }

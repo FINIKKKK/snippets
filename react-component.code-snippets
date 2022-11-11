@@ -5,7 +5,7 @@
     "body": [
       "import React from 'react';",
       "",
-      "import styles from './${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}.module.scss'",
+      "import ss from './${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}.module.scss'",
       "",
       "type ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props = {",
       "	$1",

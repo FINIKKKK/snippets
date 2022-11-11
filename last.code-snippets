@@ -4,7 +4,7 @@
 		"prefix": "last",
 		"body": [
 			"$1:not(:last-child) {",
-			"	",
+			"	$2",
 			"}",
 		],
 		"description": "not:last"

@@ -1,0 +1,10 @@
+{
+  "ts-ignore": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "ts",
+    "body": [
+			"// @ts-ignore",
+    ],
+    "description": "ts-ignore"
+  }
+}

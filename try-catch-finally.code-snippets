@@ -1,18 +1,17 @@
 {
-  "try-catch-finnaly": {
+  "try-catch-finally": {
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
     "prefix": "tryf",
     "body": [
       "try {",
       "	$1",
       "} catch (error) {",
+      "	console.log('error', 'Ошибка при получении $2...');",
       "	alert('Ошибка!');",
-      "	console.log('Ошибка при получении $2');",
-      "	console.log(error);",
-      "} finnaly {"
+      "} finally {"
 			"		$3",
 			"}"
     ],
-    "description": "try-catch-finnaly"
+    "description": "try-catch-finally"
   }
 }

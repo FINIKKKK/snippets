@@ -1,8 +1,8 @@
 {
-  "export *": {
+  "export * from ''": {
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
-    "prefix": "exim",
+    "prefix": "ex",
     "body": "export * from './$1';",
-    "description": "export *"
+    "description": "export * from ''"
   } 
 }

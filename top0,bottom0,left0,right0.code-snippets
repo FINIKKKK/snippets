@@ -1,5 +1,5 @@
 {
-	"oompletely-size": {
+	"top, bottom, left, right = 0": {
 		"scope": "css,scss,sass",
 		"prefix": "tblr",
 		"body": [
@@ -8,6 +8,6 @@
 			"left: 0;",
 			"right: 0;",
 		],
-		"description": "oompletely-size"
+		"description": "top, bottom, left, right = 0"
 	}
 }
