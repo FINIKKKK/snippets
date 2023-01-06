@@ -1,0 +1,14 @@
+{
+  "hide arrows in input[number]": {
+    "scope": "scss,sass,css",
+    "prefix": "numberHide",
+    "body": [
+      "&::-webkit-outer-spin-button,",
+      "&::-webkit-inner-spin-button {",
+      "	-webkit-appearance: none;",
+      "	margin: 0;",
+      "}"
+    ],
+    "description": "hide arrows in input[number]"
+  }
+}

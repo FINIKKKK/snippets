@@ -1,0 +1,8 @@
+{
+  "useSelectors": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "uss",
+    "body": ["const { $2} = useSelectors((state) => state.$1);"],
+    "description": "useSelectors"
+  }
+}

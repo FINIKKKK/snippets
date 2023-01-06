@@ -1,6 +1,6 @@
 {
 	"svg": {
-		"scope": "html",
+		"scope": "html, javascript, typescript, javascriptreact, typescriptreact",
 		"prefix": "svg",
 		"body": [
 			"<svg class='$2' width=\"20\" height=\"20\">",

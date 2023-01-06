@@ -1,0 +1,8 @@
+{
+  "import next/head": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "imnh",
+    "body": "import Head from 'next/head';",
+    "description": "import next/head"
+  }
+}

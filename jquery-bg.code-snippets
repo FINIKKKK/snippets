@@ -1,7 +1,7 @@
 {
 	"jquery-bg": {
-		"scope": "javascript",
-		"prefix": "bg",
+		"scope": "javascript, typescript",
+		"prefix": "bgg",
 		"body": [
 			"$(\"body\").css(\"background-color\",\"red\");",
 		],

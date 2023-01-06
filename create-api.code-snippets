@@ -1,0 +1,16 @@
+{
+  "create-api": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "api",
+    "body": [
+      "try {",
+      "	const $2 = await Api().$1",
+      "	$4",
+      "} catch (err) {",
+      "	console.warn(err);",
+      "	alert('Ошибка $3');",
+      "}"
+    ],
+    "description": "create-api"
+  }
+}

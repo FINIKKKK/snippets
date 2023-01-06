@@ -1,0 +1,8 @@
+{
+  "transform: none": {
+    "scope": "scss, sass, css",
+    "prefix": "trn",
+    "body": "transform: none;",
+    "description": "transform: none"
+  }
+}

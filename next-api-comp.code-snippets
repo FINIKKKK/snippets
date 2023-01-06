@@ -1,0 +1,40 @@
+{
+  "next-api-component": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "napic",
+    "body": [
+      "import { AxiosInstance } from 'axios';",
+      "import { T$3, Create$3Dto, Update$3Dto } from './types';",
+      "",
+      "export const $1Api = (instance: AxiosInstance) => ({",
+      "	async getAll() {",
+      "		const { data } = await instance.get<TCategory[]>('/$2');",
+      "		return data;",
+      "	},",
+      "	async getOne(id: number) {",
+      "		const { data } = await instance.get<T$3>(`/$2/\\${id}`);",
+      "		return data;",
+      "	},",
+      "	async create(dto: Create$3Dto) {",
+      "		const { data } = await instance.post<Create$3Dto, { data: T$3 }>(",
+      "			'/$2',",
+      "			dto",
+      "		);",
+      "		return data;",
+      "	},",
+      "	async update(id: number, dto: Update$3Dto) {",
+      "		const { data } = await instance.patch<Update$3Dto, { data: T$3 }>(",
+      "			`/$2/\\${id}`,",
+      "			dto",
+      "		);",
+      "		return data;",
+      "	},",
+      "	async remove(id: number) {",
+      "		const { data } = await instance.delete<T$3>(`/$2/\\${id}`);",
+      "			return data;",
+      "		},",
+      "});"
+    ],
+    "description": "next-api-component"
+  }
+}

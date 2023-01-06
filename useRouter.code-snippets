@@ -1,0 +1,8 @@
+{
+  "useRouter": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "uro",
+    "body": ["const router = useRouter();"],
+    "description": "useRouter"
+  }
+}

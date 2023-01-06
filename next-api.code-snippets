@@ -1,0 +1,32 @@
+{
+  "next-api-index": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "napi",
+    "body": [
+      "import axios from 'axios';",
+      "import { GetServerSidePropsContext, NextPageContext } from 'next';",
+      "import Cookies, { parseCookies } from 'nookies';",
+      "",
+      "export type ApiReturnTypes = {",
+      "	$1: ReturnType<typeof $2Api>;",
+      "};",
+      "",
+      "export const Api = (ctx?: NextPageContext | GetServerSidePropsContext) => {",
+      "	const cookies = ctx ? Cookies.get(ctx) : parseCookies();",
+      "	const token = cookies.$3;",
+      "",
+      "	const instance = axios.create({",
+      "		baseURL: 'http://localhost:7777/',",
+      "		headers: {",
+      "			Authorization: `Bearer ${token}`,",
+      "		},",
+      "	});",
+      "",
+      "	return {",
+      "		$1: $2Api(instance),",
+      "	};",
+      "};"
+    ],
+    "description": "next-api-index"
+  }
+}

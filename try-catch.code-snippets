@@ -5,9 +5,9 @@
     "body": [
       "try {",
       "	$1",
-      "} catch (error) {",
-      "	console.log('error', 'Ошибка при получении $2...');",
-      "	alert('Ошибка!');",
+      "} catch (err) {",
+      "	console.warn(err);",
+      "	alert('Ошибка $2');",
       "}"
     ],
     "description": "try-catch"

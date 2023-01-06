@@ -1,0 +1,8 @@
+{
+  "transform: scale($1);": {
+    "scope": "scss,sass,css",
+    "prefix": "trs",
+    "body": ["transform: scale($1);"],
+    "description": "transform: scale($1);"
+  }
+}

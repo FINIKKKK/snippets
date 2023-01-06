@@ -1,0 +1,8 @@
+{
+  "transform: rotate($1deg);": {
+    "scope": "scss,sass,css",
+    "prefix": "trr",
+    "body": ["transform: rotate($1deg);"],
+    "description": "transform: rotate($1deg);"
+  }
+}

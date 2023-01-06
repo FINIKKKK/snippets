@@ -3,7 +3,7 @@
 		"scope": "scss, sass",
 		"prefix": "rgba",
 		"body": [
-			"rgba(#$1, 0.$2);",
+			"rgba(#$1, 0.$2)",
 		],
 		"description": "rgba()"
 	}

@@ -1,0 +1,8 @@
+{
+  "import next/image": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "imni",
+    "body": "import Image from 'next/image';",
+    "description": "import next/image"
+  }
+}

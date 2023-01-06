@@ -1,7 +1,7 @@
 {
   "custom-scss-in-module": {
     "scope": "scss, sass",
-    "prefix": "custom",
+    "prefix": "gl",
     "body": [
 			":global {"
 			"	$1",

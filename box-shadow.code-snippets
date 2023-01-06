@@ -1,7 +1,7 @@
 {
 	"box-shadow: 0px 0px 10px #000;": {
 		"scope": "scss,sass,css",
-		"prefix": "bss",
+		"prefix": "bs",
 		"body": [
 			"box-shadow: 0px 0px 10px #$1",
 		],

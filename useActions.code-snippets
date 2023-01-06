@@ -1,0 +1,10 @@
+{
+  "useActions": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "ua",
+    "body": [
+      "const { $1 } = useActions();"
+    ],
+    "description": "useActions"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ref": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "ref",
+    "body": [
+      "ref={ref$1}"
+    ],
+    "description": "ref"
+  }
+}

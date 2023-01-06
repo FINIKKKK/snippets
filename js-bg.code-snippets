@@ -1,0 +1,11 @@
+{
+	"js-bg": {
+		"scope": "javascript, typescript",
+		"prefix": "bg",
+		"body": [
+			"document.body.style.background = 'red';",
+		],
+		"description": "js-bg"
+	}
+}
+

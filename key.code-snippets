@@ -2,7 +2,7 @@
   "key in map()": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "key",
-    "body": ["key={`${obj.$2}_${inde$1}`}"],
+    "body": ["key={`${obj.$2}_\\${index}`}"],
     "description": "key in map()"
   }
 }

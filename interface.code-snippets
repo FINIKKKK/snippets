@@ -1,7 +1,7 @@
 {
   "interface": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
-    "prefix": "inter",
+    "prefix": "int",
     "body": [
 			"export interface $1 {",
 			"	$2;",

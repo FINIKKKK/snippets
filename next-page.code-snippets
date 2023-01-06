@@ -1,0 +1,24 @@
+{
+  "Next Page": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "nx",
+    "body": [
+      "import { NextPage } from 'next';",
+      "",
+      "interface $1PageProps {",
+      "	$4",
+      "};",
+      "",
+      "const $1Page: NextPage<$1PageProps> = ({ $3 }) => {",
+      "",
+      "",
+      "	return (",
+      "		$2",
+      "	);",
+      "};"
+			"",
+			"export default $1Page;"
+    ],
+    "description": "Next Page"
+  }
+}

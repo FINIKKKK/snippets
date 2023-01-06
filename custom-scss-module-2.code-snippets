@@ -1,0 +1,12 @@
+{
+  "custom-scss-in-module2": {
+    "scope": "scss, sass",
+    "prefix": "gll",
+    "body": [
+			"&:global(.$1) {"
+			"	$2",
+			"}"
+		],
+    "description": "custom-scss-in-module2"
+  } 
+}

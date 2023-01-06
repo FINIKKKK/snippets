@@ -1,7 +1,7 @@
 {
 	"png/svg shadow": {
 		"scope": "css, scss, sass",
-		"prefix": "shadow-png",
+		"prefix": "png-shadow",
 		"body": [
 			"filter: drop-shadow(0px 0px 5px $1);",
 		],

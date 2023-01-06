@@ -1,0 +1,23 @@
+{
+  "submit form and create token": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "apit",
+    "body": [
+      "const onSubmitForm = async (dto: UserLoginDto) => {",
+      "	try {",
+      "		const user = await Api().user.login(dto);",
+      "		setCookie(null, 'token', user.token, {",
+      "			maxAge: 30 * 60 * 24 * 60,",
+      "			path: '/',",
+      "		});",
+      "		dispatch(setUser(user));",
+      "		setErrorMessage('');",
+      "		router.push('/');",
+      "	} catch (err) {",
+      "		setErrorMessage(err?.response?.data?.message);",
+      "	}",
+      "};"
+    ],
+    "description": "submit form and create token"
+  }
+}
