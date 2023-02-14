@@ -1,0 +1,15 @@
+{
+  "yup scheme validation": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "yup",
+    "body": [
+      "export const $1Scheme = yup.object().shape({",
+      "$2: yup",
+      ".string()",
+      ".min(3, '')",
+      ".required(''),",
+      "});"
+    ],
+    "description": "yup scheme validation"
+  }
+}

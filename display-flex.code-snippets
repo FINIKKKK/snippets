@@ -1,0 +1,12 @@
+{
+  "display: flex": {
+    "scope": "scss,sass,css",
+    "prefix": "df",
+    "body": [
+      "display: flex;",
+      "align-items: center;",
+      "justify-content: space-between;",
+    ],
+    "description": "display: flex"
+  }
+}

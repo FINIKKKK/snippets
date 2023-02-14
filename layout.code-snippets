@@ -1,0 +1,27 @@
+{
+  "layout-page": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "layout",
+    "body": [
+      "import { Footer, Header } from '@/components';",
+      "",
+      "type $1LayoutsProps = {",
+      "	children: any;",
+      "};",
+      "",
+      "export const $1Layout: React.FC<$1LayoutsProps> = ({ ",
+      "children }) => {",
+      "	return (",
+      "		<>",
+      "		<Header />",
+      "",
+      "		{children}",
+      "",
+      "		<Footer />",
+      "		</>",
+      "	);",
+      "};"
+    ],
+    "description": "layout-page"
+  }
+}

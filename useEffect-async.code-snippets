@@ -1,14 +1,12 @@
 {
-  "useEffect with async": {
+  "async noname function": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
-    "prefix": "asuf",
+    "prefix": "asf",
     "body": [
-      " React.useEffect(() => {",
-      "	(async () => {",
-      "		$1",
-      "	})();",
-      "}, []);"
+      "(async () => {",
+      " $1",
+      "})();",
     ],
-    "description": "useEffect with async"
+    "description": "async noname function"
   }
 }

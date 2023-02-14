@@ -1,0 +1,19 @@
+{
+  "base-entity-nest": {
+    "scope": "javascript, typescript",
+    "prefix": "base",
+    "body": [
+      "export abstract class Base {",
+      "	@PrimaryGeneratedColumn()",
+      "	id: number;",
+      "",
+      "	@CreateDateColumn()",
+      "	createdAt: string;",
+      "",
+      "	@UpdateDateColumn()",
+      "	updateAt: string;",
+      "}"
+    ],
+    "description": "base-entity-nest"
+  }
+}

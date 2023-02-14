@@ -3,7 +3,7 @@
 		"scope": "scss,sass,css",
 		"prefix": "imv",
 		"body": [
-			"@import '../../styles$1/variables';",
+			"@import '@/styles/assets$1/variables';",
 		],
 		"description": "variables.scss import"
 	}

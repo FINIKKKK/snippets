@@ -1,0 +1,10 @@
+{
+  "imports typeorm entity": {
+    "scope": "javascript, typescript",
+    "prefix": "typeorm",
+    "body": [
+      "imports: [TypeOrmModule.forFeature([$1Entity])],"
+    ],
+    "description": "imports typeorm entity"
+  }
+}

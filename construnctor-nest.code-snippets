@@ -1,11 +1,11 @@
 {
   "constructor-service-nest": {
-    "scope": "javascript, javascriptreact, typescript, typescriptreact",
-    "prefix": "cnr",
+    "scope": "javascript, typescript",
+    "prefix": "constructor",
     "body": [
       "constructor(",
       "	@InjectRepository(${1/(.*)/${1:/capitalize}/}Entity)",
-      "	private readonly ${1/(.*)/${1:/downcase}/}Repository: Repository<${1/(.*)/${1:/capitalize}/}Entity>,",
+      "	private ${1/(.*)/${1:/downcase}/}Repository: Repository<${1/(.*)/${1:/capitalize}/}Entity>,",
       ") {}"
     ],
     "description": "constructor-service-nest"

@@ -1,0 +1,10 @@
+{
+  "import all": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "imx",
+    "body": [
+      "import * as $1 from '$2';"
+    ],
+    "description": "import all"
+  }
+}

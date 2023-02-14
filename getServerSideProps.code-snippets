@@ -1,0 +1,26 @@
+{
+  "getServerSideProps": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "getServerSideProps",
+    "body": [
+      "export const getServerSideProps: GetServerSideProps = async (ctx) => {",
+      "	try {",
+      "		const id = ctx?.params?.id;",
+      "		const $1 = await Api().$1.$2(id);",
+      "		return {",
+      "			props: {",
+      "				$1,",
+      "			},",
+      "		};",
+      "	} catch (err) {",
+      "			console.warn(err);",
+      "			alert('Ошибка при получении $3');",
+      "			return {",
+      "				props: {},",
+      "			};",
+      "	}",
+      "};"
+    ],
+    "description": "getServerSideProps"
+  }
+}

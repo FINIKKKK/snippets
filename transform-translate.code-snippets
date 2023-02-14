@@ -1,7 +1,7 @@
 {
   "transform: translateX($1%);": {
     "scope": "scss,sass,css",
-    "prefix": "tr",
+    "prefix": "trx",
     "body": ["transform: translate$1($2%);"],
     "description": "transform: translateX($1%);"
   }

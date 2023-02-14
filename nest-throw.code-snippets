@@ -1,0 +1,10 @@
+{
+  "throw new error": {
+    "scope": "javascript, typescript",
+    "prefix": "throw",
+    "body": [
+      "throw new HttpException('$1',HttpStatus.$2);"
+    ],
+    "description": "throw new error"
+  }
+}

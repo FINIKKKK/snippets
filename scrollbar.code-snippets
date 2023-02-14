@@ -1,0 +1,13 @@
+{
+  "scrollbar": {
+    "scope": "scss,sass,css",
+    "prefix": "scroll",
+    "body": [
+      "&::-webkit-scrollbar {",
+			"	$1",
+			"}",
+    ],
+    "description": "scrollbar"
+  }
+}
+

@@ -1,0 +1,33 @@
+{
+  "controller-nest": {
+    "scope": "javascript, typescript",
+    "prefix": "controller",
+    "body": [
+			"@Post()",
+      "create(@Body() dto: $2Dto) {",
+      "	return this.$1sService.create$2(dto);",
+      "}",
+			""
+      "@Get()",
+      "findAll() {",
+      "	return this.$1sService.getAll$2s();",
+      "}",
+      "",
+      "@Get(':id')",
+      "findOne(@Param('id') id: number) {",
+      "	return this.$1sService.get$2ById(id);",
+      "}",
+      "",
+      "@Patch(':id')",
+      "update(@Param('id') id: number, @Body() dto: $2Dto) {",
+      "	return this.$1sService.update$2(id, dto);",
+      "}",
+      "",
+      "@Delete(':id')",
+      "remove(@Param('id') id: number) {",
+      "	return this.$1sService.remove$2(id);",
+      "}"
+    ],
+    "description": "controller-nest"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "hook useSelectors": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
-    "prefix": "cnr",
+    "prefix": "husl",
     "body": [
       "import { TypedUseSelectorHook, useSelector } from 'react-redux';",
       "import { RootState } from '../redux/store';",

@@ -1,7 +1,7 @@
 {
   "next-api-index": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
-    "prefix": "napi",
+    "prefix": "api",
     "body": [
       "import axios from 'axios';",
       "import { GetServerSidePropsContext, NextPageContext } from 'next';",
@@ -18,7 +18,7 @@
       "	const instance = axios.create({",
       "		baseURL: 'http://localhost:7777/',",
       "		headers: {",
-      "			Authorization: `Bearer ${token}`,",
+      "			Authorization: `Bearer \\${token}`,",
       "		},",
       "	});",
       "",

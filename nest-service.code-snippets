@@ -1,0 +1,36 @@
+{
+  "service-nest": {
+    "scope": "javascript, typescript",
+    "prefix": "service",
+    "body": [
+      "constructor(@InjectR$3epository($2Entity) private $1sRepository: Repository<$2Entity>) {}",
+      "",
+      "async create$2(dto: $2Dto) {",
+      "	const $1 = await this.$1sRepository.save(dto);",
+      "	return $1;",
+      "}",
+      "",
+      "async getAll$2s() {",
+      "	const $1s = await this.$1sRepository.find();",
+      "	return $1s;",
+      "}",
+      "",
+      "async get$2ById(id: number) {",
+      "	const $1 = await this.$1sRepository.findOne({ where: { ",
+      "id } });",
+      "	return $1;",
+      "}",
+      "",
+      "async update$2(id: number, dto: $2Dto) {",
+      "	const $1 = await this.$1sRepository.update(id, dto);",
+      "	return $1;",
+      "}",
+      "",
+      "async remove$2(id: number) {",
+      "	const $1 = await this.$1sRepository.delete(id);",
+      "	return $1;",
+      "}"
+    ],
+    "description": "service-nest"
+  }
+}

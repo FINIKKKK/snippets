@@ -1,0 +1,12 @@
+{
+  "dto-nest": {
+    "scope": "javascript, typescript",
+    "prefix": "dto",
+    "body": [
+      "export class $1Dto {",
+			"	readonly $2;",
+			"}"
+    ],
+    "description": "dto-nest"
+  }
+}

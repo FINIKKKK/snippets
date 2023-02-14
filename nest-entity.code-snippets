@@ -1,0 +1,20 @@
+{
+  "entity typeorm": {
+    "scope": "javascript, typescript",
+    "prefix": "entity",
+    "body": [
+      "@Entity('$2')",
+      "export class $1Entity extends Base {",
+      "	@Column({ unique: true })",
+      "	name: string;",
+      "",
+      "	@Column({ unique: true })",
+      "	email: string;",
+      "",
+      "	@Column()",
+      "	password: string;",
+      "}"
+    ],
+    "description": "entity typeorm"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "className and module className": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "ss",
+    "body": [
+      "{`$1 \\${ss.$2}`}"
+    ],
+    "description": "className and module className"
+  }
+}
