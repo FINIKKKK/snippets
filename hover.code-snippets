@@ -1,0 +1,14 @@
+{
+  "mini hover animation": {
+    "scope": "scss, sass, css",
+    "prefix": "hover",
+    "body": [
+      "opacity: 0.7$1;",
+      "transition: 0.3$2s;",
+      "&:hover {",
+      "	opacity: 1;",
+      "}"
+    ],
+    "description": "mini hover animation"
+  }
+}

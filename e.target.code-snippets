@@ -1,0 +1,8 @@
+{
+  "e.target.value": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "e",
+    "body": ["e.target.value"],
+    "description": "e.target.value"
+  }
+}

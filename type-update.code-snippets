@@ -1,0 +1,10 @@
+{
+	"type update dto": {
+		"scope": "javascript, typescript, javascriptreact, typescriptreact",
+		"prefix": "ttu",
+		"body": [
+			"export type Update$1Dto = Partial<$1Dto>;"
+		],
+		"description": "type update dto"
+	}
+}

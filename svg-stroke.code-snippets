@@ -3,7 +3,7 @@
 		"scope": "css,scss,sass",
 		"prefix": "svg-str",
 		"body": [
-			"fill: transparent;",
+			"fill: none;",
 			"stroke: $1;"
 		],
 		"description": "svg-stroke"

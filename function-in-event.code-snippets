@@ -1,0 +1,8 @@
+{
+  "function in element": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "fe",
+    "body": ["(e: any) => set$1(e.target.value)"],
+    "description": "function in element"
+  }
+}

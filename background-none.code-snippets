@@ -1,0 +1,8 @@
+{
+  "background: none": {
+    "scope": "scss, sass, css",
+    "prefix": "bn",
+    "body": ["background: none;"],
+    "description": "background: none"
+  }
+}

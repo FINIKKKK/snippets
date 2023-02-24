@@ -1,0 +1,18 @@
+{
+  "create api request on click": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "cax",
+    "body": [
+      "const $1 = async () => {",
+      "		try {",
+      "			const $2 = await Api().$3.$4();",
+      "			$6",
+      "		} catch (err) {",
+      "			console.warn(err);",
+      "			alert('Ошибка при $5');",
+      "		}",
+      "}"
+    ],
+    "description": "create api request on click"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "app getInitialProps": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "getInitialProps",
+    "body": [
+      "App.getInitialProps = wrapper.getInitialAppProps(",
+      "(store) =>",
+      "	async ({ ctx, Component }) => {",
+      "		try {",
+      "			const userData = await Api(ctx).user.getProfile();",
+      "			store.dispatch(setUserData(userData));",
+      "		} catch (err) {",
+      "			console.log('Error Authorization');",
+      "		}",
+      "",
+      "	return {",
+      "		pageProps: Component.getInitialProps",
+      "			? await Component.getInitialProps({ ...ctx, store })",
+      "			: {},",
+      "		};",
+      "	}",
+      ");"
+    ],
+    "description": "app getInitialProps"
+  }
+}

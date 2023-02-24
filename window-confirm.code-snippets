@@ -1,0 +1,12 @@
+{
+	"window confirm": {
+		"scope": "javascript, typescript, javascriptreact, typescriptreact",
+		"prefix": "wc",
+		"body": [
+			"if (window.confirm('Вы действительно хотите $1')) {",
+			"	$2",
+			"}"
+		],
+		"description": "window confirm"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"svg in next": {
+		"scope": "javascript, typescript, javascriptreact, typescriptreact",
+		"prefix": "svg",
+		"body": [
+			"<svg className='$2' width=\"20\" height=\"20\">",
+      "	<use xlinkHref=\"../img/icons/icons.svg#$1\"/>",
+			"</svg>"
+		],
+		"description": "svg in next"
+	}
+}

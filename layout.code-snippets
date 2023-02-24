@@ -3,10 +3,11 @@
     "scope": "javascript, typescript, javascriptreact, typescriptreact",
     "prefix": "layout",
     "body": [
+      "import React from 'react';"
       "import { Footer, Header } from '@/components';",
       "",
       "type $1LayoutsProps = {",
-      "	children: any;",
+      "	children: React.ReactNode;",
       "};",
       "",
       "export const $1Layout: React.FC<$1LayoutsProps> = ({ ",

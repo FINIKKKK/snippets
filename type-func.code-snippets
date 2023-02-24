@@ -1,0 +1,10 @@
+{
+	"type function": {
+		"scope": "javascript, typescript, javascriptreact, typescriptreact",
+		"prefix": "ttf",
+		"body": [
+			"(value: $1) => void$2;"
+		],
+		"description": "type function"
+	}
+}

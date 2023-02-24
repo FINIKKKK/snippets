@@ -1,0 +1,20 @@
+{
+  "create api request on loaded": {
+    "scope": "javascript, typescript, javascriptreact, typescriptreact",
+    "prefix": "ca",
+    "body": [
+      "React.useEffect(() => {",
+      "	(async () => {",
+      "		try {",
+      "			const $1 = await Api().$2.$3();",
+      "			$5",
+      "		} catch (err) {",
+      "			console.warn(err);",
+      "			alert('Ошибка при $4');",
+      "		}",
+      "	})();",
+      "}, []);"
+    ],
+    "description": "create api request on loaded"
+  }
+}
